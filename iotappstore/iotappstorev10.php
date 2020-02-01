@@ -42,8 +42,8 @@ if(
   exit();
 }
 $db = array(
-    "5C:CF:7F:0B:67:54" => "iotupdater_0_1",
-    "18:FE:34:D6:03:F7" => "fastblink_001"
+    "68:C6:3A:A6:34:A0" => "iotupdater_0_1",
+    "68:C6:3A:A6:34:A0" => "fastblink_001"
 );
 
 if(isset($db[$_SERVER['HTTP_X_ESP8266_STA_MAC']])) {
